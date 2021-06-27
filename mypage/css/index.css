@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.toubu {
+    position: relative;
+    height: 72px;
+    /* background-color: pink; */
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.logo {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 240px;
+    height: 100%;
+    background-color: black;
+}
+
+.logo a {
+    display: inline-block;
+    height: 100%;
+    line-height: 72px;
+    text-align: center;
+}
+
+.logo img {
+    width: 80%;
+}
+
+.menu {
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    top: 0;
+    left: 250px;
+    /* transform: translateX(-50%); */
+    /* background-color: skyblue; */
+    overflow: hidden;
+}
+
+.menu ul li {
+    float: left;
+    line-height: 72px;
+    font-size: 21px;
+    font-weight: 800;
+    /* margin: 0 8%; */
+    /* padding-left: calc((35% - 240px)); */
+    padding-left: calc((25% - 130px));
+}
+
+.menu ul li a:hover {
+    border-bottom: 2px solid #3f1be2;
+}
+
+.language {
+    position: absolute;
+    /* right: 0; */
+    top: 0;
+    left: calc((90% - 100px));
+    height: 100%;
+    width: 240px;
+    line-height: 72px;
+    /* background-color: purple; */
+    font-size: 8px;
+    text-align: center;
+}
+
+.language span {
+    display: block;
+    height: 30px;
+    float: left;
+    margin-left: 50px;
+    margin-right: 2px;
+}
+
+.language .en {
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    /* background-color: pink; */
+    border: 1px solid #000;
+    margin-top: 21px;
+}
+
+.language .jp {
+    float: left;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    /* background-color: pink; */
+    border: 1px solid #000;
+    margin-top: 21px;
+}
+
+.hid {
+    display: block;
+}
+
+
+/* 主体 */
+
+.post {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    /* background: url(/images/gamersky_06origin_11_20214211640E83.jpg) no-repeat center; */
+}
+
+#bg1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.post .left {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translateX(calc(-100% - 50px));
+    /* background-color: pink; */
+    line-height: 800px;
+}
+
+.post .right {
+    position: absolute;
+    height: 100%;
+    right: 50%;
+    transform: translateX(calc(100% + 50px));
+    /* background-color: purple; */
+    line-height: 800px;
+}
